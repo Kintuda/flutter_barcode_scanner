@@ -420,6 +420,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         }
     }
 
+    /*
      * Turn on and off flash light based on flag
      *
      * @param isFlashToBeTurnOn
