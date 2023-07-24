@@ -420,11 +420,6 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         }
     }
 
-    /*
-     * Turn on and off flash light based on flag
-     *
-     * @param isFlashToBeTurnOn
-     */
     private void turnOnOffFlashLight(boolean isFlashToBeTurnOn) {
         try {
             if (getPackageManager().hasSystemFeature(PackageManager.FEATURE_CAMERA_FLASH)) {
